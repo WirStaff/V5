@@ -1,0 +1,38 @@
+{
+  "API_KEY": "",
+  "startPort": 27015,
+  "servers": [
+    {
+      "redirectServer": "37.18.21.173:27002",
+      "real": true,
+      "hostname": "Wirstaff First",
+      "map": ["de_dust2", "awp_lego_2"],
+      "description": "Wirstaff INC",
+      "maxPlayers": 40,
+      "players": 10,
+      "secure": true,
+      "tags": "wirstaff",
+      "region": 3,
+      "tokens": "tokens1.txt",
+      "accounts": "accounts1.txt",
+      "coldStart": false,
+      "updateInfoSec": 60
+    },
+    {
+      "redirectServer": "37.18.21.173:27006",
+      "real": false,
+      "hostname": "Wirstaff Test",
+      "map": ["de_dust2"],
+      "description": "Wirstaff INC",
+      "maxPlayers": 10,
+      "players": 5,
+      "secure": true,
+      "tags": "wirstaff",
+      "region": 3,
+      "tokens": "tokens2.txt",
+      "accounts": "accounts2.txt",
+      "coldStart": true,
+      "updateInfoSec": 60
+    }
+  ]
+}
